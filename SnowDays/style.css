@@ -19,14 +19,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .provo-cover {
-    background-image: url(assets/Bryce-2.JPG);
-    padding: none;
-    height: 400px;
-    max-width: 200%;
+    background-image: url(../NationalParks/Snow-mountains-cropped.jpg);
+    padding: 200px;
+    height: 100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 
 .left-column {
@@ -113,10 +112,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-    background-image: url("assets/Fire Season/Bryce-2.jpg");
-    padding: none;
-    height: 94vh;
-    width: 100vw;
+    background-image: url(assets/Snowy\ Timp.jpg);
+    padding: 100px;
+    height: 350px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,50 +130,47 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
     margin-right: 15px;
     margin-left: 15px;
-    
-    border-radius: 1px;
+    width:1100px;
+    border-radius: 2px;
     font-family: "Allura";
-    text-align: right;
+    text-align: center;
 }
 
 .top-heading {
     background-color: none;
-    color: black;
-    
-    
+    color: Pink;
+    padding: 1px 20px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width:1100px;
     border-radius: 2px;
-    font: "Times Roman";
     text-align: center;
-}
-
-.top-heading h1 {
-    padding-top: 200px;
 }
 
 .features-section {
     height: 350px;
-    margin-top: 100px;
-    background-color: none;
-    border-top: 5px none;
-    color: white;
+    background-color: plum;
+    border-top: 10px solid white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Ubunto Condensed", sans-serif;
-    /* box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58); */
+    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
 
    
 }
 
 .columns-wrapper {
-    width: 500px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     
 }
 
 .column {
-    padding: 15px;
+    padding: 20px;
     
     
 }

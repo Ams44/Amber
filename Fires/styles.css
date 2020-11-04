@@ -19,14 +19,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .provo-cover {
-    background-image: url(assets/Bryce-2.JPG);
-    padding: none;
-    height: 400px;
-    max-width: 200%;
+    background-image: url(../assets/Fire Season/red sun2.jpg);
+    padding: 200px;
+    height: 100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .left-column {
@@ -113,10 +112,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-    background-image: url("assets/Fire Season/Bryce-2.jpg");
-    padding: none;
-    height: 94vh;
-    width: 100vw;
+    background-image: url(assets/red\ sun\ cropped2.jpg);
+    padding: 100px;
+    height: 350px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,38 +130,53 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
     margin-right: 15px;
     margin-left: 15px;
-    
-    border-radius: 1px;
-    font-family: "Allura";
-    text-align: right;
-}
-
-.top-heading {
-    background-color: none;
-    color: black;
-    
-    
+   
     border-radius: 2px;
-    font: "Times Roman";
+    font-family: "Allura";
     text-align: center;
 }
 
-.top-heading h1 {
-    padding-top: 200px;
-}
-
-.features-section {
-    height: 350px;
-    margin-top: 100px;
+.top-heading {
+    background-image: url("../assets/Fire Season/red sun2.jpg");
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
     background-color: none;
-    border-top: 5px none;
     color: white;
+    padding: 1px 20px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+    border-radius: 2px;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    /* margin-right: auto; */
+    width: 50%;
+  }
+.features-section {
+    background-image: url("../assets/Fire Season/how\ cool\ plane.jpeg");
+    Background-position: left;
+    height: 750px;
+    border-top: 10px solid white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Ubunto Condensed", sans-serif;
-    /* box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58); */
-
+    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+    
    
 }
 
@@ -175,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column {
-    padding: 15px;
+    padding: 20px;
     
     
 }
