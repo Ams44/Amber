@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .homepage {
     background-image: url(assets/Snowy\ Timp.jpg);
-    padding: 100px;
+
     height: 350px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -148,19 +148,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.features-section {
-    height: 350px;
-    background-color: plum;
-    border-top: 10px solid white;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Ubunto Condensed", sans-serif;
-    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
 
-   
-}
+
 
 .columns-wrapper {
     width: 1000px;
@@ -170,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column {
-    padding: 20px;
+   
     
     
 }
