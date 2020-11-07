@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Dancing Script', sans-serif;
+    background-color: rgb(220, 238, 245);
 }
 
 h1, h2, h3, h4, h5, h6 {
